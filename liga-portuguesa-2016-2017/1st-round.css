@@ -1,0 +1,61 @@
+
+body {
+	background-color: #000000;
+}
+
+header {
+	background-color: #FF0000;
+}
+
+main {
+	background-color: #FF0000;
+	padding-left: 80px;
+	padding-bottom: 20px;
+}
+
+main div {
+	margin: auto;
+	overflow: auto;
+	width: 100%;
+	float: center;
+	padding-left: 5px;
+}
+
+main div div {
+	//background-color: #0000FF;
+	width: 32%;
+	float: left;
+}
+
+table {
+	background-color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+	background-color: #808080; 
+}
+
+td:nth-child(odd) {
+	width: 125px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+td:nth-child(even) {
+	text-align: center;
+	width: 50px;
+}
+
+table, th, td {
+	border: solid black;
+}
+
+h2 {
+	margin-bottom: 8px;
+	padding-left: 40px;
+}
+
+footer {
+	background-color: #FF0000;
+}
