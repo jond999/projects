@@ -1,4 +1,4 @@
-package football.euro.france2016;
+package football.ptleague.season1617;
 
 import java.util.Comparator;
 import javafx.beans.property.SimpleIntegerProperty;

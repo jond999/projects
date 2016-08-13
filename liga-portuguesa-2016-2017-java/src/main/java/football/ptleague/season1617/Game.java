@@ -1,4 +1,4 @@
-package football.euro.france2016;
+package football.ptleague.season1617;
 
 import java.util.ArrayList;
 import javafx.beans.property.SimpleIntegerProperty;
@@ -6,18 +6,18 @@ import javafx.beans.property.SimpleStringProperty;
 
 public class Game
 {
-    private final int NUMBER_OF_TEAMS = 4 ;
+    private final int NUMBER_OF_TEAMS = 18 ;
     private Team home;
     private SimpleStringProperty nameHome;
     private SimpleIntegerProperty goalsHome;
     private Team away;
     private SimpleStringProperty nameAway;
     private SimpleIntegerProperty goalsAway;
-    private Group group;
+    private Teams teams;
 
-    public Game(Group group, Team home, Team away)
+    public Game(Teams teams, Team home, Team away)
     {
-        this.group = group;
+        this.teams = teams;
         this.home = home;
         this.nameHome = new SimpleStringProperty(this.home.getName());
         this.goalsHome = new SimpleIntegerProperty(0);
@@ -26,9 +26,9 @@ public class Game
         this.goalsAway = new SimpleIntegerProperty(0);
     }
     
-    public Game(Group group, Team home, int goalsHome, Team away, int goalsAway)
+    public Game(Teams teams, Team home, int goalsHome, Team away, int goalsAway)
     {
-        this.group = group;
+        this.teams = teams;
         this.home = home;
         this.nameHome = new SimpleStringProperty(this.home.getName());
         this.goalsHome = new SimpleIntegerProperty(goalsHome);
@@ -185,7 +185,7 @@ public class Game
         ArrayList<Team> updated = new ArrayList();
         
         for(int i = 0; i < NUMBER_OF_TEAMS; i++)
-            aux.add(this.group.getTeam(i + 1));          
+            aux.add(this.teams.getTeam(i + 1));          
         
         for(int i = 0; i < NUMBER_OF_TEAMS; i++)
         {
@@ -195,12 +195,12 @@ public class Game
             aux.remove(first);
         }
         
-        this.group.getTeams().clear();
+        this.teams.getTeams().clear();
                 
         for(int i = 0; i < NUMBER_OF_TEAMS; i++)
         {
-            this.group.getTeams().add(updated.get(i));
-            this.group.getTeams().get(i).setPosition(i + 1);
+            this.teams.getTeams().add(updated.get(i));
+            this.teams.getTeams().get(i).setPosition(i + 1);
         }
     }
 }

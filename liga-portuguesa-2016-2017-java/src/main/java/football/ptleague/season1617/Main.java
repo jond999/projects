@@ -1,4 +1,5 @@
-package football.euro.france2016;
+// TODO: TO BE FIXED
+package football.ptleague.season1617;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,7 +27,7 @@ import org.jdom2.input.SAXBuilder;
 
 public class Main extends Application
 {
-    private final String XML_FILE_NAME = "euro2016.xml";
+    private final String XML_FILE_NAME = "portuguese-league-2016-2017.xml";
     private FinalStage fs = new FinalStage();
 
     private HashMap<Character, TableView<Team>> classification = new HashMap<Character, TableView<Team>>();
@@ -49,7 +50,7 @@ public class Main extends Application
         Scene scene = new Scene(root, 1500, 800);
 
         stage.setScene(scene);
-        stage.setTitle("EURO 2016");
+        stage.setTitle("PORTUGUESE LEAGUE 2016/2017");
         stage.setMaximized(false);
                 
         final VBox vbox = new VBox();

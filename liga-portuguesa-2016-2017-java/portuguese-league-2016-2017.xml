@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PortugueseLeague2016-2017>
+  <Championship>
+    <Team>Arouca</Team>
+    <Team>Belenenses</Team>
+    <Team>Benfica</Team>
+    <Team>Boavista</Team>
+    <Team>Braga</Team>
+    <Team>Chave</Team>
+    <Team>Estoril</Team>
+    <Team>Feirense</Team>
+    <Team>Guimarães</Team>
+    <Team>Marítimo</Team>
+    <Team>Moreirense</Team>
+    <Team>Nacional</Team>
+    <Team>Paços de Ferreira</Team>
+    <Team>Porto</Team>
+    <Team>Rio Ave</Team>
+    <Team>Setúbak</Team>
+    <Team>Sporting</Team>
+    <Team>Tondela</Team>
+  </Championship>
+  <Games>
+    <Matchday id="1" final="0">
+      <Game id="1" started="1" finished="1">
+        <TeamHome score="1">Rio Ave</TeamHome>
+        <TeamAway score="3">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="1" finished="1">
+        <TeamHome score="1">Moreirense</TeamHome>
+        <TeamAway score="1">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="1" finished="1">
+        <TeamHome score="2">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="1" finished="1">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="2">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="2" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="3" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="4" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="5" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="6" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="7" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="8" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="9" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="10" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="11" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="12" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="13" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="14" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="15" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="16" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="17" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="18" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="19" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="20" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="21" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="22" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="23" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="24" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="25" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="26" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="27" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="28" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="29" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="30" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="31" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="32" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="33" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+    <Matchday id="34" final="0">
+      <Game id="1" started="0" finished="0">
+        <TeamHome score="0">Rio Ave</TeamHome>
+        <TeamAway score="0">FC Porto</TeamAway>
+      </Game>
+      <Game id="2" started="0" finished="0">
+        <TeamHome score="0">Moreirense</TeamHome>
+        <TeamAway score="0">Paços de Ferreira</TeamAway>
+      </Game>
+      <Game id="3" started="0" finished="0">
+        <TeamHome score="0">Sporting</TeamHome>
+        <TeamAway score="0">Marítimo</TeamAway>
+      </Game>
+      <Game id="4" started="0" finished="0">
+        <TeamHome score="0">Tondela</TeamHome>
+        <TeamAway score="0">Benfica</TeamAway>
+      </Game>
+      <Game id="5" started="0" finished="0">
+        <TeamHome score="0">Boavista</TeamHome>
+        <TeamAway score="0">Arouca</TeamAway>
+      </Game>
+      <Game id="6" started="0" finished="0">
+        <TeamHome score="0">Setúbal</TeamHome>
+        <TeamAway score="0">Belenenses</TeamAway>
+      </Game>
+      <Game id="7" started="0" finished="0">
+        <TeamHome score="0">Guimarães</TeamHome>
+        <TeamAway score="0">Braga</TeamAway>
+      </Game>
+      <Game id="8" started="0" finished="0">
+        <TeamHome score="0">Estoril</TeamHome>
+        <TeamAway score="0">Feirense</TeamAway>
+      </Game>
+      <Game id="9" started="0" finished="0">
+        <TeamHome score="0">Nacional</TeamHome>
+        <TeamAway score="0">Chaves</TeamAway>
+      </Game>
+    </Matchday>
+  <Games>
+</PortugueseLeague2016-2017>

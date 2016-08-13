@@ -1,4 +1,5 @@
-package football.euro.france2016;
+// TODO: TO BE FIXED
+package football.ptleague.season1617;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -14,14 +15,14 @@ import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 
-public class GroupStage
+public class Championship
 {
-    private final String XML_FILE_NAME = "euro2016.xml";
+    private final String XML_FILE_NAME = "portuguese-league-2016-2017.xml";
     
     private HashMap<Character, Group> groups = new HashMap<Character, Group>();
     private HashMap<String, Game> games = new HashMap<String, Game>();
     
-    public GroupStage()
+    public Championship()
     {
         this.init();
     }
