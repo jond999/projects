@@ -77,7 +77,7 @@
         <TeamAway score="1">Sporting</TeamAway>
       </Game>
       <Game id="5" started="1">
-        <TeamHome score="0">Porto</TeamHome>
+        <TeamHome score="1">Porto</TeamHome>
         <TeamAway score="0">Estoril</TeamAway>
       </Game>
       <Game id="6" started="0">
