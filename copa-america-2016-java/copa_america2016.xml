@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopaAmerica2016>
+  <GroupStage>
+    <Groups>
+      <Group id="A">
+        <Team>Colombia</Team>
+        <Team>Costa Rica</Team>
+        <Team>Paraguay</Team>
+        <Team>United States</Team>
+      </Group>
+      <Group id="B">
+        <Team>Brazil</Team>
+        <Team>Ecuador</Team>
+        <Team>Haiti</Team>
+        <Team>Peru</Team>
+      </Group>
+      <Group id="C">
+        <Team>Jamaica</Team>
+        <Team>Mexico</Team>
+        <Team>Uruguay</Team>
+        <Team>Venezuela</Team>
+      </Group>
+      <Group id="D">
+        <Team>Argentina</Team>
+        <Team>Bolivia</Team>
+        <Team>Chile</Team>
+        <Team>Panama</Team>
+      </Group>
+    </Groups>
+    <Games>
+      <Group id="A" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="0">United States</TeamHome>
+          <TeamAway score="2">Colombia</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="0">Costa Rica</TeamHome>
+          <TeamAway score="0">Paraguay</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="4">United States</TeamHome>
+          <TeamAway score="0">Costa Rica</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="2">Colombia</TeamHome>
+          <TeamAway score="1">Paraguay</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="1">United States</TeamHome>
+          <TeamAway score="0">Paraguay</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="2">Colombia</TeamHome>
+          <TeamAway score="3">Costa Rica</TeamAway>
+        </Game>
+      </Group>
+      <Group id="B" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="0">Haiti</TeamHome>
+          <TeamAway score="1">Peru</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="0">Brazil</TeamHome>
+          <TeamAway score="0">Ecuador</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="7">Brazil</TeamHome>
+          <TeamAway score="1">Haiti</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="2">Ecuador</TeamHome>
+          <TeamAway score="2">Peru</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="4">Ecuador</TeamHome>
+          <TeamAway score="0">Haiti</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="0">Brazil</TeamHome>
+          <TeamAway score="1">Peru</TeamAway>
+        </Game>
+      </Group>
+      <Group id="C" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="0">Jamaica</TeamHome>
+          <TeamAway score="1">Venezuela</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="3">Mexico</TeamHome>
+          <TeamAway score="1">Uruguay</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="0">Uruguay</TeamHome>
+          <TeamAway score="1">Venezuela</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="2">Mexico</TeamHome>
+          <TeamAway score="0">Jamaica</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="1">Mexico</TeamHome>
+          <TeamAway score="1">Venezuela</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="3">Uruguay</TeamHome>
+          <TeamAway score="0">Jamaica</TeamAway>
+        </Game>
+      </Group>
+      <Group id="D" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="2">Panama</TeamHome>
+          <TeamAway score="1">Bolivia</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="2">Argentina</TeamHome>
+          <TeamAway score="1">Chile</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="2">Chile</TeamHome>
+          <TeamAway score="1">Bolivia</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="5">Argentina</TeamHome>
+          <TeamAway score="0">Panama</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="4">Chile</TeamHome>
+          <TeamAway score="2">Panama</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="3">Argentina</TeamHome>
+          <TeamAway score="0">Bolivia</TeamAway>
+        </Game>
+      </Group>
+    </Games>
+  </GroupStage>
+  <FinalStage>
+    <Games4 final="1">
+      <Game id="1" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="2">United States</TeamHome>
+        <TeamAway score="1">Ecuador</TeamAway>
+      </Game>
+      <Game id="2" started="1" afterTime="1" penalties="1" penaltiesHome="2" penaltiesAway="4" finished="1">
+        <TeamHome score="0">Peru</TeamHome>
+        <TeamAway score="0">Colombia</TeamAway>
+      </Game>
+      <Game id="3" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="0">Mexico</TeamHome>
+        <TeamAway score="7">Chile</TeamAway>
+      </Game>
+      <Game id="4" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="4">Argentina</TeamHome>
+        <TeamAway score="1">Venezuela</TeamAway>
+      </Game>
+    </Games4>
+    <Games2 final="1">
+      <Game1 id="1" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="0">United States</TeamHome>
+        <TeamAway score="4">Argentina</TeamAway>
+      </Game1>
+      <Game2 id="2" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="0">Colombia</TeamHome>
+        <TeamAway score="2">Chile</TeamAway>
+      </Game2>
+    </Games2>
+    <Games1 final="1">
+      <!-- 3rd and 4th places -->
+      <Game34 id="1" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="0">United States</TeamHome>
+        <TeamAway score="1">Colombia</TeamAway>
+      </Game34>
+      <!-- 1st and 2nd places -->
+      <GameFinal id="2" started="1" afterTime="1" penalties="1" penaltiesHome="2" penaltiesAway="4" finished="1">
+        <TeamHome score="0">Argentina</TeamHome>
+        <TeamAway score="0">Chile</TeamAway>
+      </GameFinal>
+    </Games1>
+    <Winner>Chile</Winner>
+  </FinalStage>
+</CopaAmerica2016>

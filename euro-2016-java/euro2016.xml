@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Euro2016>
+  <GroupStage>
+    <Groups>
+      <Group id="A">
+        <Team>Albania</Team>
+        <Team>France</Team>
+        <Team>Romania</Team>
+        <Team>Switzerland</Team>
+      </Group>
+      <Group id="B">
+        <Team>England</Team>
+        <Team>Russia</Team>
+        <Team>Slovakia</Team>
+        <Team>Wales</Team>
+      </Group>
+      <Group id="C">
+        <Team>Germany</Team>
+        <Team>Northern Ireland</Team>
+        <Team>Poland</Team>
+        <Team>Ukraine</Team>
+      </Group>
+      <Group id="D">
+        <Team>Croatia</Team>
+        <Team>Czech Republic</Team>
+        <Team>Spain</Team>
+        <Team>Turkey</Team>
+      </Group>
+      <Group id="E">
+        <Team>Belgium</Team>
+        <Team>Italy</Team>
+        <Team>Republic of Ireland</Team>
+        <Team>Sweden</Team>
+      </Group>
+      <Group id="F">
+        <Team>Austria</Team>
+        <Team>Hungary</Team>
+        <Team>Iceland</Team>
+        <Team>Portugal</Team>
+      </Group>
+    </Groups>
+    <Games>
+      <Group id="A" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="2">France</TeamHome>
+          <TeamAway score="1">Romania</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="0">Albania</TeamHome>
+          <TeamAway score="1">Switzerland</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="1">Romania</TeamHome>
+          <TeamAway score="1">Switzerland</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="2">France</TeamHome>
+          <TeamAway score="0">Albania</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="0">Romania</TeamHome>
+          <TeamAway score="1">Albania</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="0">Switzerland</TeamHome>
+          <TeamAway score="0">France</TeamAway>
+        </Game>
+      </Group>
+      <Group id="B" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="2">Wales</TeamHome>
+          <TeamAway score="1">Slovakia</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="1">England</TeamHome>
+          <TeamAway score="1">Russia</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="1">Russia</TeamHome>
+          <TeamAway score="2">Slovakia</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="2">England</TeamHome>
+          <TeamAway score="1">Wales</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="0">Russia</TeamHome>
+          <TeamAway score="2">Wales</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="0">Slovakia</TeamHome>
+          <TeamAway score="0">England</TeamAway>
+        </Game>
+      </Group>
+      <Group id="C" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="1">Poland</TeamHome>
+          <TeamAway score="0">Northern Ireland</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="2">Germany</TeamHome>
+          <TeamAway score="0">Ukraine</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="0">Ukraine</TeamHome>
+          <TeamAway score="2">Northern Ireland</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="0">Germany</TeamHome>
+          <TeamAway score="0">Poland</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="0">Northern Ireland</TeamHome>
+          <TeamAway score="1">Germany</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="0">Ukraine</TeamHome>
+          <TeamAway score="1">Poland</TeamAway>
+        </Game>
+      </Group>
+      <Group id="D" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="0">Turkey</TeamHome>
+          <TeamAway score="1">Croatia</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="1">Spain</TeamHome>
+          <TeamAway score="0">Czech Republic</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="2">Czech Republic</TeamHome>
+          <TeamAway score="2">Croatia</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="3">Spain</TeamHome>
+          <TeamAway score="0">Turkey</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="2">Croatia</TeamHome>
+          <TeamAway score="1">Spain</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="0">Czech Republic</TeamHome>
+          <TeamAway score="2">Turkey</TeamAway>
+        </Game>
+      </Group>
+      <Group id="E" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="1">Republic of Ireland</TeamHome>
+          <TeamAway score="1">Sweden</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="0">Belgium</TeamHome>
+          <TeamAway score="2">Italy</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="1">Italy</TeamHome>
+          <TeamAway score="0">Sweden</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="3">Belgium</TeamHome>
+          <TeamAway score="0">Republic of Ireland</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="0">Italy</TeamHome>
+          <TeamAway score="1">Republic of Ireland</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="0">Sweden</TeamHome>
+          <TeamAway score="1">Belgium</TeamAway>
+        </Game>
+      </Group>
+      <Group id="F" final="1">
+        <Game id="1" started="1" finished="1">
+          <TeamHome score="0">Austria</TeamHome>
+          <TeamAway score="2">Hungary</TeamAway>
+        </Game>
+        <Game id="2" started="1" finished="1">
+          <TeamHome score="1">Portugal</TeamHome>
+          <TeamAway score="1">Iceland</TeamAway>
+        </Game>
+        <Game id="3" started="1" finished="1">
+          <TeamHome score="1">Iceland</TeamHome>
+          <TeamAway score="1">Hungary</TeamAway>
+        </Game>
+        <Game id="4" started="1" finished="1">
+          <TeamHome score="0">Portugal</TeamHome>
+          <TeamAway score="0">Austria</TeamAway>
+        </Game>
+        <Game id="5" started="1" finished="1">
+          <TeamHome score="3">Hungary</TeamHome>
+          <TeamAway score="3">Portugal</TeamAway>
+        </Game>
+        <Game id="6" started="1" finished="1">
+          <TeamHome score="2">Iceland</TeamHome>
+          <TeamAway score="1">Austria</TeamAway>
+        </Game>
+      </Group>
+    </Games>
+  </GroupStage>
+  <FinalStage>
+    <Games8 final="1">
+      <Game id="1" started="1" afterTime="1" penalties="1" penaltiesHome="4" penaltiesAway="5" finished="1">
+        <TeamHome score="1">Switzerland</TeamHome>
+        <TeamAway score="1">Poland</TeamAway>
+      </Game>
+      <Game id="2" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="1">Wales</TeamHome>
+        <TeamAway score="0">Northern Ireland</TeamAway>
+      </Game>
+      <Game id="3" started="1" afterTime="1" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="0">Croatia</TeamHome>
+        <TeamAway score="1">Portugal</TeamAway>
+      </Game>
+      <Game id="4" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="2">France</TeamHome>
+        <TeamAway score="1">Republic of Ireland</TeamAway>
+      </Game>
+      <Game id="5" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="3">Germany</TeamHome>
+        <TeamAway score="0">Slovakia</TeamAway>
+      </Game>
+      <Game id="6" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="0">Hungary</TeamHome>
+        <TeamAway score="4">Belgium</TeamAway>
+      </Game>
+      <Game id="7" started="0" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="2">Italy</TeamHome>
+        <TeamAway score="0">Spain</TeamAway>
+      </Game>
+      <Game id="8" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="1">England</TeamHome>
+        <TeamAway score="2">Iceland</TeamAway>
+      </Game>
+    </Games8>
+    <Games4 final="1">
+      <Game id="1" started="1" afterTime="1" penalties="1" penaltiesHome="3" penaltiesAway="5" finished="1">
+        <TeamHome score="1">Poland</TeamHome>
+        <TeamAway score="1">Portugal</TeamAway>
+      </Game>
+      <Game id="2" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="3">Wales</TeamHome>
+        <TeamAway score="1">Belgium</TeamAway>
+      </Game>
+      <Game id="3" started="1" afterTime="1" penalties="1" penaltiesHome="6" penaltiesAway="5" finished="1">
+        <TeamHome score="1">Germany</TeamHome>
+        <TeamAway score="1">Italy</TeamAway>
+      </Game>
+      <Game id="4" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="5">France</TeamHome>
+        <TeamAway score="2">Iceland</TeamAway>
+      </Game>
+    </Games4>
+    <Games2 final="1">
+      <Game1 id="1" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="2">Portugal</TeamHome>
+        <TeamAway score="0">Wales</TeamAway>
+      </Game1>
+      <Game2 id="2" started="1" afterTime="0" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="0">Germany</TeamHome>
+        <TeamAway score="2">France</TeamAway>
+      </Game2>
+    </Games2>
+    <Games1 final="1">
+      <GameFinal id="1" started="1" afterTime="1" penalties="0" penaltiesHome="0" penaltiesAway="0" finished="1">
+        <TeamHome score="1">Portugal</TeamHome>
+        <TeamAway score="0">France</TeamAway>
+      </GameFinal>
+    </Games1>
+    <Winner>Portugal</Winner>
+  </FinalStage>
+</Euro2016>
