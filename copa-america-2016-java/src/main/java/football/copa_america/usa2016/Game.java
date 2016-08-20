@@ -1,4 +1,4 @@
-package football.ptleague.season1617;
+package football.copa_america.usa2016;
 
 import java.util.ArrayList;
 import javafx.beans.property.SimpleIntegerProperty;
@@ -6,38 +6,34 @@ import javafx.beans.property.SimpleStringProperty;
 
 public class Game
 {
-    private final int NUMBER_OF_TEAMS = 18 ;
-    private final Team home;
-    private final SimpleStringProperty nameHome;
-    private final SimpleIntegerProperty goalsHome;
-    private final Team away;
-    private final SimpleStringProperty nameAway;
-    private final SimpleIntegerProperty goalsAway;
-    private final Teams teams;
+    private final int NUMBER_OF_TEAMS = 4 ;
+    private Team home;
+    private SimpleStringProperty nameHome;
+    private SimpleIntegerProperty goalsHome;
+    private Team away;
+    private SimpleStringProperty nameAway;
+    private SimpleIntegerProperty goalsAway;
+    private Group group;
 
-    public Game(Teams teams, Team home, Team away)
+    public Game(Group group, Team home, Team away)
     {
-        this.teams = teams;
-        
+        this.group = group;
         this.home = home;
         this.nameHome = new SimpleStringProperty(this.home.getName());
         this.goalsHome = new SimpleIntegerProperty(0);
-        
         this.away = away;
         this.nameAway = new SimpleStringProperty(this.away.getName());
         this.goalsAway = new SimpleIntegerProperty(0);
     }
     
-    public Game(Teams teams, Team home, int goalsHome, Team away, int goalsAway)
+    public Game(Group group, Team home, int goalsHome, Team away, int goalsAway)
     {
-        this.teams = teams;
-        
+        this.group = group;
         this.home = home;
         this.nameHome = new SimpleStringProperty(this.home.getName());
         this.goalsHome = new SimpleIntegerProperty(goalsHome);
-        
         this.away = away;
-        this.nameAway = new SimpleStringProperty(away.getName());
+        this.nameAway = new SimpleStringProperty(this.away.getName());
         this.goalsAway = new SimpleIntegerProperty(goalsAway);
         
         if(this.goalsHome.getValue() > this.goalsAway.getValue())
@@ -53,7 +49,7 @@ public class Game
             this.draw();
         }
         
-        this.updateClassification();
+        this.updateGroup();
     }
     
     public Team getHome()
@@ -181,15 +177,15 @@ public class Game
         }
     
         return list.get(position);
-    }    
-    
-    public void updateClassification()
+    }
+
+    public void updateGroup()
     {
         ArrayList<Team> aux = new ArrayList();
         ArrayList<Team> updated = new ArrayList();
         
         for(int i = 0; i < NUMBER_OF_TEAMS; i++)
-            aux.add(this.teams.getTeam(i + 1));          
+            aux.add(this.group.getTeam(i + 1));          
         
         for(int i = 0; i < NUMBER_OF_TEAMS; i++)
         {
@@ -199,12 +195,12 @@ public class Game
             aux.remove(first);
         }
         
-        this.teams.getTeams().clear();
+        this.group.getTeams().clear();
                 
         for(int i = 0; i < NUMBER_OF_TEAMS; i++)
         {
-            this.teams.getTeams().add(updated.get(i));
-            this.teams.getTeams().get(i).setPosition(i + 1);
+            this.group.getTeams().add(updated.get(i));
+            this.group.getTeams().get(i).setPosition(i + 1);
         }
     }
 }

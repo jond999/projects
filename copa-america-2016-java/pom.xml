@@ -22,18 +22,10 @@
                                     </execution>
                             </executions>
                             <configuration>
-                                    <mainClass>football.ptleague.season1617.Main</mainClass>
+                                    <mainClass>football.copa_america.usa2016.Main</mainClass>
                                     <killAfter>-1</killAfter>
                             </configuration>
                     </plugin>
-					<plugin>
-						<groupId>com.zenjava</groupId>
-						<artifactId>javafx-maven-plugin</artifactId>
-						<version>8.5.0</version>
-						<configuration>
-							<mainClass>football.ptleague.season1617.Main</mainClass>
-						</configuration>
-					</plugin>					
             </plugins>
     </build>
 

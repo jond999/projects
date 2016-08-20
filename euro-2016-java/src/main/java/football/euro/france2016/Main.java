@@ -1,4 +1,4 @@
-package football.ptleague.season1617;
+package football.euro.france2016;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,14 +26,14 @@ import org.jdom2.input.SAXBuilder;
 
 public class Main extends Application
 {
-    private final String XML_FILE_NAME = "portuguese-league-2016-2017.xml";
-    private final Championship ch = new Championship();
-    
-    private TableView<Team> tv_classification;
-    private final HashMap<String, TableView<Game>> tv_games = new HashMap<String, TableView<Game>>();
+    private final String XML_FILE_NAME = "euro2016.xml";
+    private FinalStage fs = new FinalStage();
 
-    private ObservableList<Team> ol_dataClassification;
-    private final HashMap<String, ObservableList<Game>> ol_dataGames = new HashMap<String, ObservableList<Game>>();
+    private HashMap<Character, TableView<Team>> classification = new HashMap<Character, TableView<Team>>();
+    private HashMap<Character, TableView<Game>> games = new HashMap<Character, TableView<Game>>();
+
+    private HashMap<Character, ObservableList<Team>> data_classification = new HashMap<Character, ObservableList<Team>>();
+    private HashMap<Character, ObservableList<Game>> data_games = new HashMap<Character, ObservableList<Game>>();
     
     public static void main(String[] args)
     {        
@@ -49,12 +49,12 @@ public class Main extends Application
         Scene scene = new Scene(root, 1500, 800);
 
         stage.setScene(scene);
-        stage.setTitle("PORTUGUESE LEAGUE 2016/2017");
+        stage.setTitle("EURO 2016");
         stage.setMaximized(false);
                 
         final VBox vbox = new VBox();
-
         vbox.setSpacing(5);
+        //vbox.setLayoutX(5);
         vbox.setPadding(new Insets(5, 0, 0, 10));               
         
         try
@@ -64,31 +64,28 @@ public class Main extends Application
                                     
             Element competition = document.getRootElement();
             
-            Element games = competition.getChild("Games");                                                         
-            
-            this.tv_classification = new TableView<Team>();
-            
-            for(Element matchday : games.getChildren())
-                this.tv_games.put(matchday.getAttributeValue("id"), new TableView<Game>());
-            
-            this.createClassificationTable();
-            
-            Label labelClassification = new Label("Classification");
-            labelClassification.setFont(new Font("Arial", 20));
-            
-            vbox.getChildren().add(labelClassification);
-            vbox.getChildren().add(this.tv_classification);          
-            
-            for(Element matchday : games.getChildren())
+            Element groupStage = competition.getChild("GroupStage");            
+                        
+            Element groups = groupStage.getChild("Groups");                        
+                     
+            for(Element groupElement : groups.getChildren())
             {
-                String matchdayId = matchday.getAttributeValue("id");
-                this.createResultsTable(matchdayId);
+                this.classification.put(groupElement.getAttributeValue("id").charAt(0), new TableView<Team>());
+                this.games.put(groupElement.getAttributeValue("id").charAt(0), new TableView<Game>());
+            }            
+            
+            for(Element groupElement : groups.getChildren())
+            {
+                char groupId = groupElement.getAttributeValue("id").charAt(0);
+                this.createClassificationTable(groupId);
+                this.createResultsTable(groupId);
                 
-                Label label = new Label("Matchday " + matchdayId);
+                Label label = new Label("Group " + groupId);
                 label.setFont(new Font("Arial", 20));
           
                 vbox.getChildren().add(label);
-                vbox.getChildren().add(this.tv_games.get(matchdayId));
+                vbox.getChildren().add(this.classification.get(groupId));
+                vbox.getChildren().add(this.games.get(groupId));
             }
         }
         catch(JDOMException e)
@@ -101,12 +98,14 @@ public class Main extends Application
         }
 
         ScrollBar sc = new ScrollBar();   
-                
-        sc.setLayoutX(scene.getWidth() - sc.getWidth());
+        
+        sc.setOrientation(Orientation.VERTICAL);
+        
+        sc.setLayoutX(scene.getWidth()-sc.getWidth());
         sc.setMin(0);
         sc.setOrientation(Orientation.VERTICAL);
         sc.setPrefHeight(scene.getHeight());
-        sc.setMax(15000);        
+        sc.setMax(5000);        
 
         sc.valueProperty().addListener(new ChangeListener<Number>()
         {
@@ -122,9 +121,9 @@ public class Main extends Application
         stage.show();
     }
     
-    void createClassificationTable()
+    void createClassificationTable(char group)
     {        
-        this.tv_classification.setEditable(false);
+        this.classification.get(group).setEditable(false);
 
         TableColumn positionCol = new TableColumn("Pos");
         positionCol.setMinWidth(50);
@@ -166,14 +165,14 @@ public class Main extends Application
         pointsCol.setMinWidth(50);
         pointsCol.setCellValueFactory(new PropertyValueFactory<Team, Integer>("points"));
         
-        this.ol_dataClassification = this.ch.createDataClassification();
+        this.data_classification.put(group, fs.getGamesGroups().createDataClassification(group));
         
-        Collections.sort(this.ol_dataClassification, new Team(""));        
+        Collections.sort(this.data_classification.get(group), new Team(""));        
                 
-        this.tv_classification.setFixedCellSize(93);
-        this.tv_classification.setItems(this.ol_dataClassification);
+        this.classification.get(group).setFixedCellSize(93);
+        this.classification.get(group).setItems(this.data_classification.get(group));
         
-        this.tv_classification.getColumns().addAll(
+        this.classification.get(group).getColumns().addAll(
             positionCol,
             nameCol,
             playedCol,
@@ -187,9 +186,9 @@ public class Main extends Application
         );
     }
     
-    void createResultsTable(String matchday)
+    void createResultsTable(char group)
     {
-        this.tv_games.get(matchday).setEditable(false);
+        this.games.get(group).setEditable(false);
 
         TableColumn homeCol = new TableColumn("Home");
         homeCol.setMinWidth(50);
@@ -207,11 +206,11 @@ public class Main extends Application
         goalsAwayCol.setMinWidth(50);
         goalsAwayCol.setCellValueFactory(new PropertyValueFactory<Game, Integer>("goalsAway"));                
         
-        this.ol_dataGames.put(matchday, this.ch.createDataGames(matchday));
+        this.data_games.put(group, fs.getGamesGroups().createDataGames(group));
 
-        this.tv_games.get(matchday).setItems(this.ol_dataGames.get(matchday));   
+        this.games.get(group).setItems(this.data_games.get(group));   
 
-        this.tv_games.get(matchday).getColumns().addAll(
+        this.games.get(group).getColumns().addAll(
             homeCol,
             goalsHomeCol,
             awayCol,
