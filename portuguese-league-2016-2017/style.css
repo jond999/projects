@@ -1,14 +1,42 @@
 
 body {
-	//	background-color: #000000;
+	background-color: #000000;
+}
+
+header, main, footer {
+    background-color: #FF0000;
 }
 
 header {
-	//background-color: #FF0000;
+    padding-left: 565px;
 }
 
 main {
-	//background-color: #FF0000;
+    padding-top: 25px;
+    padding-left: 80px;
+	padding-bottom: 20px;
+}
+
+main div {
+	margin: auto;
+	overflow: auto;
+	width: 100%;
+	float: center;
+	padding-left: 5px;
+}
+
+main div div {
+	//background-color: #0000FF;
+	width: 32%;
+	float: left;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+table, th, td {
+	border: solid #000000;
 }
 
 table {
@@ -22,32 +50,43 @@ th {
 	background-color: #4CAF50;
 }
 
-th:nth-child(2){
-	width: 125px;
-}
-
 td {
 	text-align: center;
-}
-
-tr:nth-child(odd) {
-	background-color: #F2F2F2; 
 }
 
 td:nth-child(1) {
 	font-weight: bold;
 }
 
-td:nth-child(2) {
-	text-align: left;
+td:nth-child(2){
+    text-align: left;
+    width: 125px;
 	padding-left: 5px;
+    font-weight: bold;
 }
 
-table, th, td {
-	border: solid #000000;
+tr:nth-child(odd) {
+    background-color: #929292;
 }
 
-footer {
-	//background-color: #FF0000;
-	margin-top: 20px;
+#classifContainer {
+    padding-left: 180px;
+}
+
+#games td:nth-child(odd) {
+    text-align: left;
+    width: 125px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+#games td:nth-child(even) {
+    text-align: center;
+    width: 20px;
+    font-weight: normal;
+}
+
+h2 {
+	margin-bottom: 8px;
+	padding-left: 40px;
 }

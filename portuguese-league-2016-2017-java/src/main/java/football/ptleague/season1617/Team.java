@@ -14,7 +14,6 @@ public class Team implements Comparator<Team>
     private final SimpleIntegerProperty losses;
     private final SimpleIntegerProperty goalsScored;
     private final SimpleIntegerProperty goalsConceded;
-    private final SimpleIntegerProperty differenceGoals;
     private final SimpleIntegerProperty points;
     
     public Team(String name)
@@ -27,7 +26,6 @@ public class Team implements Comparator<Team>
         this.losses = new SimpleIntegerProperty(0);
         this.goalsScored = new SimpleIntegerProperty(0);
         this.goalsConceded = new SimpleIntegerProperty(0);
-        this.differenceGoals = new SimpleIntegerProperty(0);
         this.points = new SimpleIntegerProperty(0);
     }
     
