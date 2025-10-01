@@ -5,7 +5,10 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
-        <version.org.jdom.jdom>2.0.5</version.org.jdom.jdom>
+        <version.org.jdom.jdom>2.0.6.1</version.org.jdom.jdom>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <javafx.version>17.0.2</javafx.version>
     </properties>
 
     <build>
@@ -34,6 +37,16 @@
             <groupId>org.jdom</groupId>
             <artifactId>jdom2</artifactId>
             <version>${version.org.jdom.jdom}</version>            
-        </dependency>    
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
     </dependencies>
 </project>
